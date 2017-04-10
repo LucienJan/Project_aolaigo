@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车页面</title>
+	<link href="../img/icons/aolaigo.ico" rel="shortcut icon"/>
+	<link rel="stylesheet" href="../css/public.css">
+	<link rel="stylesheet" href="../css/home.css">
+	<link rel="stylesheet" href="../css/footer.css">
+	<link rel="stylesheet" href="../css/cart.css">
+</head>
+<body>
+	<!-- top-bar -->
+	<div class="top-bar w_full">
+		<div class="top-bar-cont w_1200 m_auto">
+			<ul class="top-bar-left fl">
+				<li class="top-tips-aolaigou">
+					<a href="#">奥特莱斯购物中心</a>
+					<div class="com-tips-box" style="display:none;">
+						<ul class="top-tips">
+							<li><a href="#" target="_blank">深圳华盛奥特莱斯</a></li>
+							<li><a href="#" target="_blank">南宁华盛奥特莱斯</a></li>
+							<li><a href="#" target="_blank">南昌华盛奥特莱斯</a></li>
+							<li><a href="#" target="_blank">西安华盛奥特莱斯</a></li>
+							<li><a href="#" target="_blank">郑州华盛奥特莱斯</a></li>
+							<li><a href="#" target="_blank">哈尔滨华盛奥特莱斯</a></li>
+						</ul>
+					</div></li>
+				<li><a href="#" target="_blank">商家入驻</a></li>
+			</ul>
+			<ul class="top-bar-right fr clear">
+				<li>您好,欢迎来到奥莱购</li>
+				<li class="li_login"><a href="#">请登录</a>
+				</li>
+				<li class="li_reg"><a href="#">免费注册</a>
+				</li>
+				<li>
+					<span class="icon-cart fl"></span>
+					<a class="fl" href="#">购物车</a>
+					<span class="num fl">0</span>
+				</li>
+				<li><a href="#">订单查询</a>
+				</li>
+				<li><a href="#">我的收藏</a>
+				</li>
+				<li><a href="#">帮助中心</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- top-bar -->
+
+	<!-- top logo search start -->
+	<div class="i-mgtop">
+		<div class="itop-lg">
+			<a href="http://www.aolaigo.com">
+				<img src="../img/logo.png" />
+			</a>
+		</div>
+		<div class="itop-br">
+			<img src="../img/cart-ft.jpg" />
+		</div>
+		<div class="icart-sh">
+			<div class="itop-sh-up i-core">
+				<div class="itop-k">
+					<input value="拉夏贝尔" onfocus="if (value =='拉夏贝尔'){value ='';};" onblur="if (value ==''){value='拉夏贝尔';clearSg('key');};" maxlength="100" onkeydown="javascript:if(event.keyCode==13) search('key');" placeholder="请输入您想寻找的商品名称" class="search-value" type="text" id="key">
+				</div>
+				<div class="itop-bt">
+					<input class="search-btn" onclick="javascript: search('key'); return false;" value="搜索" type="button">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<!-- top logo search start -->
+
+
+	<!-- top banner -->
+	<div class="i-topbanner i-wrap" style="margin-top:15px;display:block;">
+		<a href="#" target="_blank">
+			<img src="../img/cart_banner.jpg" />
+		</a>
+	</div>
+	<!-- top banner -->
+
+
+
+
+	<!-- cart first -->
+	<div class="cart-warp cart-first" style="overflow:hidden;">
+        <div class="cart-title">商品清单（1）</div>
+    </div>
+    <div class="cart-wrap">
+    	<table class="tab-zdcon">
+    		<tbody>
+    			<tr class="tab-v31-tr" style="border-top:1px solid #e6e6e6;">
+    				<th width="60">全选</th>
+    				<th width="540">订单商品</th>
+    				<th width="120">单价</th>
+    				<th width="120">数量</th>
+    				<th width="120">优惠</th>
+    				<th width="120">小计</th>
+    				<th width="120">操作</th>
+    			</tr>
+    			<tr class="addline">
+    				<td class="tab-zdcon-line">
+    					<input type="checkbox" checked>
+    				</td>
+    				<td class="tab-zdcon-line tab-zdcon-add">
+    					<div class="tb3-con">
+    						<div class="tb3-divtu">
+    							<a href="#" target="_blank">
+    								<img src="../img/cart_item.jpg"/>
+    							</a>
+    						</div>
+    						<div class="tb3-divti">
+    							<a href="#" target="_blank">
+    								<div class="car-zgtb shop-bg"></div>[支持深圳自提]  七匹狼  男士时尚休闲短袖POLO衫 111630602244
+    							</a>
+    							<p>
+    								<span style="color:#999;">803(本白)</span>
+    								<span style="color:#999;">54A</span>
+    							</p>
+    						</div>
+    					</div>
+    				</td>
+    				<td class="tab-zdcon-line">¥280.00</td>
+    				<td>
+    					<input type="hidden" value="1">
+    					<div class="cart-num">
+    						<ul>
+    							<li><a href="javascript:void(0)" class="cart-numa">-</a></li>
+    							<li><input type="text" class="cartnum-value"></li>
+    							<li><a href="javascript:void(0)" class="cart-numa">+</a></li>
+    						</ul>
+    					</div>
+    				</td>
+    				<td class="tab-zdcon-line">
+    					<span>
+    						<p>¥33.60</p>
+    						<p style="cursor:pointer;"></p>
+    					</span>
+    				</td>
+    				<td class="tab-zdcon-line">
+    					<em>¥246.40</em>
+    				</td>
+    				<td>
+    					<div class="tabdiv-add">
+    						<p>
+    							<a href="javascript:void(0)" class="tabdiv-make">移入收藏夹</a>
+    						</p>
+    					</div>
+    					<p><a href="javascript:void(0)" class="tabdiv-del">删除</a></p>
+    				</td>
+    			</tr>
+    			<tr class="addbottom">
+    				<td></td>
+    				<td class="tab-zdcon-add">
+    					<div class="tb3-con">
+    						<div class="tb3-divtu">
+    							<span>多买多优惠</span>
+    						</div>
+    						<div class="tb3-divti">
+    							<div class="tb3-zeng">
+    								<span>
+    									<a href="javascript:void(0)">3.31-4.5全场8.8折  活动商品满1件打8.80折</a>
+    								</span>
+								</div>
+							</div>
+    					</div>
+    				</td>
+    				<td></td>
+    				<td></td>
+    				<td></td>
+    				<td></td>
+    				<td></td>
+    			</tr>
+    		</tbody>
+    	</table>
+    	<div class="car-wind">
+    		<div class="carwinda windfloat">
+    			
+    		</div>
+    		<div class="carwindb"></div>
+    		<div class="carwindc"></div>
+    	</div>
+    </div>
+	<!-- cart first -->
+
+
+
+
+	<!-- 热卖推荐 -->
+	<div class="cart-wrap">
+		<div class="cart-ts">
+			<span>热卖推荐</span>
+		</div>
+		<div class="m-house" id="hot-ranks">
+			<ul style="display:block;">
+				<li>
+					<div class="litu">
+						<a href="#"><img src="../img/cart-hot.jpg"></a>
+					</div>
+					<div class="liti">
+						<a href="#">OTHERMIX七格格 2017春装新款 长袖重工花卉刺绣短款牛仔外套7MJ1046L</a>
+					</div>
+					<div class="liva">
+						<span>¥199.00</span>
+						<span>¥999.00</span>
+					</div>
+				</li>
+				<li>
+					<div class="litu">
+						<a href="#"><img src="../img/cart-hot.jpg"></a>
+					</div>
+					<div class="liti">
+						<a href="#">OTHERMIX七格格 2017春装新款 长袖重工花卉刺绣短款牛仔外套7MJ1046L</a>
+					</div>
+					<div class="liva">
+						<span>¥199.00</span>
+						<span>¥999.00</span>
+					</div>
+				</li>
+				<li>
+					<div class="litu">
+						<a href="#"><img src="../img/cart-hot.jpg"></a>
+					</div>
+					<div class="liti">
+						<a href="#">OTHERMIX七格格 2017春装新款 长袖重工花卉刺绣短款牛仔外套7MJ1046L</a>
+					</div>
+					<div class="liva">
+						<span>¥199.00</span>
+						<span>¥999.00</span>
+					</div>
+				</li>
+				<li>
+					<div class="litu">
+						<a href="#"><img src="../img/cart-hot.jpg"></a>
+					</div>
+					<div class="liti">
+						<a href="#">OTHERMIX七格格 2017春装新款 长袖重工花卉刺绣短款牛仔外套7MJ1046L</a>
+					</div>
+					<div class="liva">
+						<span>¥199.00</span>
+						<span>¥999.00</span>
+					</div>
+				</li>
+				<li>
+					<div class="litu">
+						<a href="#"><img src="../img/cart-hot.jpg"></a>
+					</div>
+					<div class="liti">
+						<a href="#">OTHERMIX七格格 2017春装新款 长袖重工花卉刺绣短款牛仔外套7MJ1046L</a>
+					</div>
+					<div class="liva">
+						<span>¥199.00</span>
+						<span>¥999.00</span>
+					</div>
+				</li>
+				<li>
+					<div class="litu">
+						<a href="#"><img src="../img/cart-hot.jpg"></a>
+					</div>
+					<div class="liti">
+						<a href="#">OTHERMIX七格格 2017春装新款 长袖重工花卉刺绣短款牛仔外套7MJ1046L</a>
+					</div>
+					<div class="liva">
+						<span>¥199.00</span>
+						<span>¥999.00</span>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- 热卖推荐 -->
+
+	<div class="w_full p_t_30 o_hidden"></div>
+	<!-- foot -->
+	<div id="foot" class="w_full">
+		<div class="foot-cont w_1200 m_auto">
+			<!-- foot-long -->
+			<ul class="foot-long">
+				<li>
+					<div class="foot-long-icon foot-long-icon1 foot-res"></div>
+					<div class="foot-long-desc">
+						<p class="btit">100%</p>
+						<p class="stit">全场正品保证</p>
+					</div>
+				</li>
+				<li>
+					<div class="foot-long-icon foot-long-icon2 foot-res"></div>
+					<div class="foot-long-desc">
+						<p class="btit">Mail</p>
+						<p class="stit">实付满58包邮</p>
+					</div>
+				</li>
+				<li>
+					<div class="foot-long-icon foot-long-icon3 foot-res"></div>
+					<div class="foot-long-desc">
+						<p class="btit">SALE</p>
+						<p class="stit">每天低价特卖</p>
+					</div>
+				</li>
+				<li>
+					<div class="foot-long-icon foot-long-icon4 foot-res"></div>
+					<div class="foot-long-desc">
+						<p class="btit">7Days</p>
+						<p class="stit">7天无理由退货</p>
+					</div>
+				</li>
+				<li>
+					<div class="foot-long-icon foot-long-icon5 foot-res"></div>
+					<div class="foot-long-desc">
+						<p class="btit">全渠道</p>
+						<p class="stit">线上线下同步服务</p>
+					</div>
+				</li>
+			</ul>
+			<!-- foot-long -->
+			<!-- foot-help -->
+			<div class="foot-help">
+				<div class="foot-help-relation fl">
+					<div class="social-help-item fl">
+						<div class="social-weibo foot-res"></div>
+						<span>微博</span>
+					</div>
+					<div class="social-help-item fr">
+						<div class="social-wechat foot-res"></div>
+						<span>微信</span>
+					</div>
+					<div class="clear"></div>
+					<div class="social-help-tel fl">
+						<div class="social-tel-icon">客服热线：</div>
+						<ul class="social-tel-text">
+							<li>400 - 184 - 8866</li>
+							<li>0755 - 28431129</li>
+						</ul>
+						<div class="social-tel-duty">周一至周日：09:00-21:00</div>
+					</div>
+				</div>
+
+				<div class="foot-split"></div>
+				<dl class="dl-help">
+					<dt>购物指南</dt>
+					<dd><a href="#" target="_blank">购物流程</a></dd>
+					<dd><a href="#" target="_blank">用户注册</a></dd>
+					<dd><a href="#" target="_blank">提交订单</a></dd>
+					<dd><a href="#" target="_blank">找回密码</a></dd>
+					<dd><a href="#" target="_blank">常见问题</a></dd>
+					<dd><a href="#" target="_blank">跨境汇需知</a></dd>
+				</dl>
+
+				<div class="foot-split"></div>
+				<dl class="dl-help">
+					<dt>支付方式</dt>
+					<dd><a href="#" target="_blank">网银支付</a></dd>
+					<dd><a href="#" target="_blank">第三方支付</a></dd>
+					<dd><a href="#" target="_blank">支付常见问题</a></dd>
+				</dl>
+
+				<div class="foot-split"></div>
+				<dl class="dl-help">
+					<dt>配送方式</dt>
+					<dd><a href="#" target="_blank">配送服务查询</a></dd>
+					<dd><a href="#" target="_blank">配送服务说明</a></dd>
+					<dd><a href="#" target="_blank">验货与签收</a></dd>
+					<dd><a href="#" target="_blank">包邮政策</a></dd>
+				</dl>
+
+				<div class="foot-split"></div>
+				<dl class="dl-help">
+					<dt>售后服务</dt>
+					<dd><a href="#" target="_blank">退换货政策</a></dd>
+					<dd><a href="#" target="_blank">退换货说明</a></dd>
+					<dd><a href="#" target="_blank">退换货流程</a></dd>
+					<dd><a href="#" target="_blank">退换货管理</a></dd>
+					<dd><a href="#" target="_blank">跨境汇售后服务</a></dd>
+				</dl>
+
+				<div class="foot-split"></div>
+				<dl class="dl-help">
+					<img src="../img/foot-help-appMa.gif" />
+				</dl>
+			</div>
+			<!-- foot-help -->
+			<!-- foot-copyright -->
+			<div class="w_1200">
+				<div class="hp-copy">
+					<ul>
+						<li><a href="#" target="_blank">关于奥莱购</a></li>
+						<li>|</li>
+						<li><a href="#" target="_blank">联系我们</a></li>
+						<li>|</li>
+						<li><a href="#" target="_blank">诚聘英才</a></li>
+						<li>|</li>
+						<li><a href="#" target="_blank">商务合作</a></li>
+						<li>|</li>
+						<li><a href="#" target="_blank">友情链接</a></li>
+						<li>|</li>
+						<li><a href="#" target="_blank">华南城网</a></li>
+						<li>|</li>
+						<li><a href="#" target="_blank">华盛Outlets</a></li>
+					</ul>
+				</div>
+				<div class="hp-copyright">
+					Copyright © 2013-2016 深圳华盛电子商务有限公司 粤ICP备16081451-1号 All Right
+					<br />
+					<br /> 
+					深圳市龙岗区平湖华南城1号交易广场4楼奥莱购（深圳华盛电子商务有限公司）
+				</div>
+				<div class="authentication">
+					<ul class="clear">
+						<li class="foot-res cation1">
+							<a href="#" target="_blank"></a>
+						</li>
+						<li class="foot-res cation2">
+							<a href="#" target="_blank"></a>
+						</li>
+						<li class="foot-res cation3">
+							<a href="#" target="_blank"></a>
+						</li>
+						<li class="foot-res cation4">
+							<a href="#" target="_blank"></a>
+						</li>
+						<li class="foot-res cation5">
+							<a href="#" target="_blank"></a>
+						</li>
+						<li class="foot-res cation6">
+							<a href="#" target="_blank"></a>
+						</li>
+						<li class="foot-res cation7">
+							<a href="#" target="_blank"></a>
+						</li>
+						<li class="foot-res cation8">
+							<a href="#" target="_blank"></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- foot-copyright -->
+		</div>
+	</div>
+
+</body>
+</html>
