@@ -1,0 +1,393 @@
+// login-header
+.bg_white{background: #fff;}
+#login-header{
+    height: 120px;
+	.logo{
+		margin-top: 35px;
+		a{
+			display: block;
+			width: 190px;
+			height: 68px;
+			background: url(../img/logo.png) no-repeat;
+			text-indent: -99999px;
+		}
+	}
+	.foot-long{
+		height: 112px;
+		// border-bottom: 1px solid #EDEDED;
+		border: none;
+		>li{
+			width: 240px;
+			height: 100%;
+			margin-top: 5px;
+			float: left;
+			display: inline-block;
+			position: relative;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+			.foot-long-icon{
+				position: absolute;
+			    top: 20px;
+			    left: 10px;
+			    width: 62px;
+				height: 62px;
+			}
+			// .foot-res{background:url(../img/icons/foot-sprite.png)}
+			.foot-long-icon1{background-position: -270px -105px;}
+			.foot-long-icon2{background-position: -360px -105px;}
+			.foot-long-icon3{background-position: -450px -105px;}
+			.foot-long-icon4{background-position: -540px -105px;}
+			.foot-long-icon5{background-position: -625px -105px;}
+			.foot-long-desc{
+				position: absolute;
+			    top: 20px;
+			    left: 85px;
+			    .btit{
+					font-size: 18px;
+					color: #d61518;
+					line-height: 40px;
+					height: 40px;
+			    }
+			    .stit{
+			    	font-size: 12px;
+			    	color: #333;
+			    }
+			}
+		}
+	}
+}
+
+.login-main{
+	background-color: #8DCFFF;
+	>.cont{
+		height: 558px;
+		.bigImg {
+		    width: 673px;
+		    height: 558px;
+		    overflow: hidden;
+		}
+		.myCenter {
+		    width: 340px;
+		    height: auto;
+		    background: #fff;
+		    border: 1px solid #d0d0d0;
+		    margin-top: 75px;
+		    position: relative;
+		    .myCenter-res {
+		        background: url(../img/icons/right-myCenter.png);
+		    }
+		    .register-btn {
+		        position: absolute;
+		        top: 15px;
+		        left: 20px;
+		        z-index: 1;
+		        font-size: 13px;
+		        a{color: #FF7800;}
+		    }
+		    .myCenter-before{
+		    	>.item{
+		    		overflow: hidden;
+		    	}
+		    	// 普通登录
+		    	>.item.myCenter-loginPc{
+		    		// 转换登录按钮
+		    		.myCenter-change {
+		    		    background-position: -75px -75px;
+		    		    width: 60px;
+		    		    height: 60px;
+		    		    position: absolute;
+		    		    top: 0;
+		    		    right: 0;
+		    		    cursor: pointer;
+		    		}
+		    		form{
+		    			width: 240px;
+		    			margin: auto;
+		    			display: block;
+		    			.myCenter-inpt{
+	    				    height: 40px;
+	    				    line-height: 40px;
+	    				    background: #fff;
+	    				    border: 1px solid #D0D0D0;
+	    				    border-radius: 10px;
+		    				-webkit-border-radius: 10px;
+	    				    outline: 0;
+		    			}
+		    			.myCenter-inpt-name{
+		    				background: url(../img/icons/login-box.png) no-repeat;
+		    				background-position: 0 -90px;
+		    			}
+		    			.myCenter-inpt-psw{
+		    				background: url(../img/icons/login-box.png) no-repeat;
+		    				background-position: 0 -135px;
+		    			}
+		    			.input-b{width: 100%;text-indent: 3em;}
+		    			.error{
+		    				line-height: 30px;
+	    				    height: 30px;
+	    				    color: red;
+	    				    width: 95%;
+	    				    margin: auto;
+		    			}
+		    			.myCenter-other{
+		    				a{
+		    					line-height: 40px;
+		    					height: 40px;
+		    					float: left;
+	    					    display: inline-block;
+	    					    width: 49.9%;
+		    				}
+							a:hover{color: #f34;}
+		    				.middle_gray {color: #a7a7a7;}
+		    			}
+		    			// 登录按钮
+		    			.myCenter-login-btn{
+		    				width: 100%;
+		    				padding: 14px 0;
+		    			}
+		    			.com-btn {
+		    			    border-radius: 5px;
+	    			        text-align: center;
+	    			        display: block;
+	    			        border: none;
+    			            cursor: pointer;
+		    			}
+		    			.com-btn.com-btn-red {
+		    			    background: #C81417;
+		    			    color: #FFF;
+		    			    transition: all ease .3s;
+		    			}
+		    			.com-btn.com-btn-red:hover {
+		    			    background: #9a0f12;
+		    			}
+		    		}
+		    	}
+		    	// 二维码登录
+		    	>.item.myCenter-loginMa{
+					// 转换登录按钮
+					.myCenter-change{
+						background-position: 0 -75px;
+						width: 60px;
+						height: 60px;
+						position: absolute;
+						top: 0;
+						right: 0;
+						cursor: pointer;
+					}
+					.login-ma-cont {
+					    position: relative;
+					    width: 170px;
+					    height: 170px;
+					    overflow: hidden;
+					    margin: auto;
+					    display: block;
+					    .login-ma {
+					        width: 170px;
+					        height: 170px;
+					        margin: auto;
+					        display: block;
+					    }
+					    .login-ma-shadow {
+					        width: 170px;
+					        height: 170px;
+					        .shadow-bg {
+					            width: 170px;
+					            height: 170px;
+					            background: #000;
+					            filter: alpha(opacity=60);
+					            opacity: .6;
+					            position: absolute;
+					            top: 0;
+					            left: 0;
+					        }
+					        .error-info {
+					            color: #fff;
+					            width: 100%;
+					            text-align: center;
+					            position: absolute;
+					            top: 40%;
+					            font-size: 14px;
+					        }
+					        .ma-error-btn {
+					            position: absolute;
+					            top: 115px;
+					            left: 22%;
+					            width: 100px;
+					        }
+					    }
+					}
+					.loginMa-icon1 {
+					    background-position: -75px 0;
+					    width: 34px;
+					    height: 34px;
+					}
+		    	}
+		    	.other-login {
+		    	    width: 50%;
+		    	    margin: auto;
+		    	    margin-top: 10px;
+		    	    li {
+		    	        width: 50%;
+		    	        float: left;
+		    	        display: inline-block;
+		    	        a{
+		    	        	color:#000;
+		    	        	span.qq{background-position: 0 -180px;}
+			    	        span.wechat{background-position: 0 -225px;}
+			    	        span{
+			    	        	display: block;
+		    	        	    background-image: url(../img/icons/login-box.png);
+		    	        	    width: 30px;
+		    	        	    height: 30px;
+		    	        	    margin: auto;
+			    	        }
+			    	        p{
+			    	        	width: 100%;
+			    	        	text-align: center;
+			    	        	color: #a7a7a7;
+			    	        	display: block;
+			    	        	line-height: 25px;
+			    	        	height: 25px;
+			    	        }
+		    	        }
+		    	        
+		    	    }
+		    	}
+		    }
+		    .myCenter-after{
+		    	.myCenter-logo {
+		    	    width: 80px;
+		    	    height: 80px;
+		    	    -webkit-border-radius: 100%;
+		    	    border-radius: 100%;
+		    	    margin: auto;
+		    	    display: block;
+		    	    margin-top: 20px;
+		    	}
+		    	.myCenter-name {
+		    	    text-align: center;
+		    	    line-height: 45px;
+		    	    height: 45px;
+		    	    font-size: 14px;
+		    	    .deep-orange{color: #FF7800;}
+		    	}
+		    	.myCenter-box {
+		    	    background: #FAFAFA;
+		    	    width: 100%;
+		    	    height: 200px;
+		    	    display: block;
+		    	    >li {
+		    	        width: 49.9%;
+		    	        height: 100px;
+		    	        float: left;
+		    	        display: inline-block;
+		    	        position: relative;
+		    	        overflow: hidden;
+		    	        display: block;
+		    	        a{
+		    	        	.myCenter-tip {
+		    	        	    background-position: -360px 0;
+		    	        	    width: 20px;
+		    	        	    line-height: 14px;
+		    	        	    height: 14px;
+		    	        	    display: block;
+		    	        	    position: absolute;
+		    	        	    top: 10px;
+		    	        	    right: 50px;
+		    	        	    text-align: center;
+		    	        	    color: #fff;
+		    	        	}
+		    	        	span{
+		    	        		display: block;
+		    	        		margin: auto;
+		    	        		margin-top: 20px;
+		    	        	}
+		    	        	span.box-cont-1{
+							    background-position: -255px 0;
+							    width: 32px;
+							    height: 32px;
+							}
+							span.box-cont-2{
+								background-position: -195px 0;
+							    width: 32px;
+							    height: 32px;
+							}
+							span.box-cont-3{
+								background-position: -315px 0;
+							    width: 32px;
+							    height: 32px;
+							}
+							span.box-cont-4{
+								background-position: -135px 0;
+							    width: 32px;
+							    height: 32px;
+							}
+							>p{
+							    width: 100%;
+							    text-align: center;
+							    line-height: 30px;
+							    height: 30px;
+							}
+		    	        }
+		    	    }
+		    	}
+		    	.foot{a{color: #fff;}}
+		    }
+		}
+	}
+}
+
+#foot{
+	box-shadow:none;
+	background-color: #fff;
+	position: relative;
+	.full_w{overflow: hidden;padding-top: 30px;}
+	.w_1200{
+		.hp-copy{
+			width: 540px;
+			margin: 0 auto;
+			margin-top: 25px;
+			text-align: center;
+			overflow: hidden;
+			ul{
+				li{
+					float: left;
+					margin-left: 10px;
+					color: #666;
+					a{color: #666;}
+					a:hover{color: #f34;}
+				}
+			}
+		}
+		.hp-copyright{
+			width: 540px;
+			margin: 0 auto;
+			margin-top: 12px;
+			text-align: center;
+			overflow: hidden;
+			color: #666;
+		}
+		.authentication{
+			width: 780px;
+			margin: 0 auto;
+			margin-top: 25px;
+			ul{
+				li{
+					width: 87px;
+					height: 35px;
+					float: left;
+					margin-left: 10px;
+					a{color: #000;width: 87px;height: 35px;display: block;}
+				}
+				.cation1{background-position: -15px -25px;}
+				.cation2{background-position: -107px -25px;}
+				.cation3{background-position: -199px -25px;}
+				.cation4{background-position: -291px -25px;}
+				.cation5{background-position: -387px -25px;}
+				.cation6{background-position: -480px -25px;}
+				.cation7{background-position: -574px -25px;}
+				.cation8{background-position: -683px -25px;}
+			}
+		}
+	}
+}

@@ -1,0 +1,286 @@
+// ================divHeader=================
+
+
+
+
+
+
+
+// =================商品明细数据===============
+.wo-cao{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.pt-data {
+    width: 1198px;
+    border: 1px solid #e6e6e6;
+    padding: 20px 0px;
+    overflow: hidden;
+}
+// 左侧数据
+.pt-data-lt {
+    float: left;
+    width: 480px;
+    position: relative;
+    z-index: 10;
+}
+.pt-data-lt-1 {
+    float: left;
+    width: 80px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    .i-core{background: url(../img/icons/core.png) no-repeat;}
+    a.data-ltli-top{
+    	width: 23px;
+    	height: 13px;
+    	background-position: -96px -739px;
+    	display: block;
+    	position: absolute;
+    	top: 0px;
+    	left: 30px;
+    	z-index: 20;
+    	cursor: pointer;
+    }
+    a.data-ltli-bottom{
+    	position: absolute;
+    	bottom: 5px;
+    	left: 30px;
+    	display: block;
+    	width: 23px;
+    	height: 13px;
+    	background-position: -218px -739px;
+    	z-index: 20;
+    	cursor: pointer;
+    }
+    .jqzoomDiv {
+        height: 372px;
+        overflow: hidden;
+        position: absolute;
+        top: 0px;
+        left: 10px;
+        width: 80px;
+    }
+    ul{
+    	margin-top: 20px;
+		li{
+			width: 62px;
+			height: 60px;
+			margin: 0 auto;
+			margin-top: 10px;
+			img{width: 60px;height: 60px;}
+		}
+    }
+}
+.pt-data-lt-2 {
+    float: left;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+}
+.pt-share{
+	width: 480px;
+    height: 25px;
+    line-height: 25px;
+    margin-top: 15px;
+    ul{
+    	margin-left: 30px;
+    	li{
+    		float: left;
+		    color: #666;
+		    width: 80px;
+		    position: relative;
+		    padding-left: 30px;
+		    a{color:#666;}
+		    .pt-core {background: url(../img/icons/core.png) no-repeat;}
+		    .pt-share1 {
+		        width: 23px;
+		        height: 23px;
+		        position: absolute;
+		        top: 2px;
+		        left: 0px;
+		        background-position: -346px -734px;
+		    }
+		    .pt-share2 {
+		        width: 23px;
+		        height: 23px;
+		        position: absolute;
+		        top: 2px;
+		        left: 0px;
+		        background-position: -469px -734px;
+		    }
+		    .pt-share3 {
+		        width: 23px;
+		        height: 23px;
+		        position: absolute;
+		        top: 2px;
+		        left: 0px;
+		        background-position: -598px -734px;
+		    }
+		    .pt-share4 {
+		        width: 23px;
+		        height: 23px;
+		        position: absolute;
+		        top: 2px;
+		        left: 0px;
+		        background-position: -719px -734px;
+		    }
+    	}
+    	li:hover{
+    		.pt-share1 {
+    		    background-position: -408px -734px;
+    		}
+    		.pt-share2 {
+    		    background-position: -533px -734px;
+    		}
+    		.pt-share3 {
+    		    background-position: -659px -734px;
+    		}
+    		.pt-share4 {
+    		    background-position: -780px -734px;
+    		}
+    	}
+    }
+}
+// 中间数据
+.pt-data-me {
+    float: left;
+    width: 500px;
+    margin-left: 10px;
+    .data-me-tit {
+        font-size: 15px;
+        font-family: Microsoft YaHei,simhei;
+        line-height: 25px;
+        overflow: hidden;
+        color: #666;
+        span{margin-right: 10px;}
+        span.pt-zgtb {
+            width: 80px;
+            height: 20px;
+            display: block;
+            background-position: -236px -828px;
+            float: left;
+            margin-top: 4px;
+        }
+        .men3-bg {background: url(../img/icons/men-bg.png) no-repeat;}
+    }
+    .data-pval {
+        width: 480px;
+        background: #f7f7f7;
+        margin-top: 10px;
+        padding: 10px 10px;
+        ul{
+        	overflow:hidden;
+			li{float: left;}
+			li.pval-ms {
+			    color: #333;
+			    line-height: 30px;
+			    height: 30px;
+			    em{font-size: 18px; font-weight: bold;color: #ff3344;}
+			    del{color: #b2b2b2; margin-left: 8px;}
+			}
+			li.pval-tel {
+			    color: #666;
+			    margin-top: 8px;
+			    margin-left: 25px;
+			    span {cursor: pointer;}
+			    span.pt-tel{
+			    	width: 10px;
+			    	height: 16px;
+			    	display: block;
+			    	background-position: -1086px -740px;
+			    	float: left;
+			    	margin-right: 5px;
+			    }
+			    .i-core {
+			        background: url(../img/icons/core.png) no-repeat;
+			    }
+			    em {
+			        color: #ff3344;
+			        font-weight: bold;
+			        margin-right: 10px;
+			    }
+			    span {cursor: pointer;}
+			}
+        }
+    }
+
+    // 促销信息区
+    .data-sale {
+        margin-top: 15px;
+        padding-bottom: 15px;
+        border-bottom: 1px dashed #e6e6e6;
+        ul{
+        	overflow:hidden;
+        	li{
+        		float: left;
+        		height: 25px;
+        		line-height: 25px;
+        	}
+        	li.data-saleli1{
+        		width: auto; 
+        		min-width: 60px;
+        		margin-left: 10px;
+        	}
+        	li.data-saleli2{
+        		width: auto;
+    		    max-width: 400px;
+    		    color:#ff3344;
+        	}
+        }
+    }
+
+    // 属性选择区
+    .data-attr {
+    	margin-top: 5px;
+		ul {
+		    overflow: hidden;
+		    margin-top: 10px;
+		    li{float: left;}
+		    li.data-attr1{
+		    	width: auto;
+		    	min-width: 60px;
+		    	color: #666;
+	    	    margin-left: 10px;
+	    	    line-height: 38px;
+		    }
+		    li.data-attr2{
+		    	width: auto;
+	    	    max-width: 400px;
+	    	    .ptattr {
+	    	        float: left;
+	    	        height: 25px;
+	    	        line-height: 25px;
+	    	        padding: 0px 5px;
+	    	        border: 1px solid #ccc;
+	    	        cursor: pointer;
+	    	        margin-right: 5px;
+	    	        margin-top: 5px;
+	    	        position: relative;
+	    	    }
+	    	    .attr-sec {border: 1px solid #ff3344;}
+		    }
+		}
+    }
+
+}
+// 右侧数据
+.pt-data-rt {
+    float: right;
+    width: 195px;
+    margin-right: 8px;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+// ================footer=====================
