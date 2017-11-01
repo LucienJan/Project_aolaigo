@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -255,4 +256,263 @@
 	<script src="../js/register.js"></script>
 	<!-- <script src="../js/reg_cookies.js"></script> -->
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册页面</title>
+	<link href="../img/icons/aolaigo.ico" rel="shortcut icon"/>
+	<link rel="stylesheet" href="../css/public.css">
+	<link rel="stylesheet" href="../css/home.css">
+	<link rel="stylesheet" href="../css/footer.css">
+	<link rel="stylesheet" href="../css/register.css">
+	<script src="../assets/jquery-3.1.1.js"></script>
+	<script src="../assets/jquery.cookie.js"></script>
+</head>
+<body>
+	<!-- register-header -->
+	<div id="login-header">
+		<div class="w_1200 m_auto">
+			<div class="logo fl">
+				<a href="../home.html" target="_blank"><h1>奥莱购</h1></a>
+			</div>
+			<ul class="foot-long fr">
+				<li>
+					<div class="foot-long-icon foot-long-icon1 foot-res"></div>
+					<div class="foot-long-desc">
+						<p class="btit">100%</p>
+						<p class="stit">全场正品保证</p>
+					</div>
+				</li>
+				<li>
+					<div class="foot-long-icon foot-long-icon3 foot-res"></div>
+					<div class="foot-long-desc">
+						<p class="btit">SALE</p>
+						<p class="stit">每天低价特卖</p>
+					</div>
+				</li>
+				<li>
+					<div class="foot-long-icon foot-long-icon4 foot-res"></div>
+					<div class="foot-long-desc">
+						<p class="btit">7Days</p>
+						<p class="stit">7天无理由退货</p>
+					</div>
+				</li>
+			</ul>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<!-- register-header -->
+
+
+	<!-- register-main -->
+	<div class="login-main w_full" style="background-color: #FFFFFF;">
+		<div class="cont w_1200 m_auto">
+			<!-- bigImg -->
+			<div class="bigImg fl">
+				<a href="#" target="_blank">
+					<img src="../img/register_bigImg.png" />
+				</a>
+			</div>
+			<!-- bigImg -->
+			<!-- register -->
+			<div class="av3dcon-right">
+				<div class="v3login-t">
+					<em>注册华盛奥莱会员</em>
+					<span>
+						<a href="./login.html">已有账户，登录</a>
+					</span>
+				</div>
+				<div class="v3login-z">
+					<!-- 注册账号 -->
+					<div class="v3login-z1">
+						<ul>
+							<li class="reglia">注册账号</li>
+							<li class="reglib">
+								<input maxlength="11" placeholder="请输入手机号码" autocomplete="off" tabindex="1" class="ztxt" name="txtUserName" id="txtUserName" value="" type="text" validatestatus="0">
+							</li>
+						</ul>
+					</div>
+					<!-- 提示 -->
+					<div class="v3login-z2">
+						<ul>
+							<li class="reglia"></li>
+							<li class="reglib">
+								<div class="usererr"></div>
+							</li>
+						</ul>
+					</div>
+					<!-- 输入密码 -->
+					<div class="v3login-z1">
+						<ul>
+							<li class="reglia">输入密码</li>
+							<li class="reglib">
+								<input maxlength="20" placeholder="请输入密码" autocomplete="off" tabindex="1" class="ztxt-m" name="txtPassword" id="txtPassword" value="" type="password" validatestatus="0">
+							</li>
+						</ul>
+					</div>
+					<!-- 提示 -->
+					<div class="v3login-z2">
+						<ul>
+							<li class="reglia"></li>
+							<li class="reglib">
+								<div class="pwderr"></div>
+							</li>
+						</ul>
+					</div>
+					<!-- 确认密码 -->
+					<div class="v3login-z1">
+						<ul>
+							<li class="reglia">确认密码</li>
+							<li class="reglib">
+								<input maxlength="20" placeholder="请输入密码" autocomplete="off" tabindex="1" class="ztxt-m" name="txtRePassword" id="txtRePassword" value="" type="password" validatestatus="0">
+							</li>
+						</ul>
+					</div>
+					<!-- 提示 -->
+					<div class="v3login-z2">
+						<ul>
+							<li class="reglia"></li>
+							<li class="reglib">
+								<div class="repwderr"></div>
+							</li>
+						</ul>
+					</div>
+					<!-- 图形验证码 -->
+					<div class="v3login-z1">
+						<ul>
+							<li class="reglia">验证码</li>
+							<li class="reglib">
+								<input maxlength="4" placeholder="请输入验证码" autocomplete="off" tabindex="2" class="vtxt-y" name="txtValidationCode1" id="txtValidationCode1" value="" type="text">
+							</li>
+							<li class="reglia">
+								<img src="http://member.aolaigo.com/handlers/validcode.ashx" style="vertical-align:middle;cursor:pointer;margin-left:5px;" id="imgValidCode">
+							</li>
+						</ul>
+					</div>
+					<!-- 提示 -->
+					<div class="v3login-z2">
+						<ul>
+							<li class="reglia"></li>
+							<li class="reglib">
+								<div class="autherr1"></div>
+							</li>
+						</ul>
+					</div>
+					<!-- 短信验证码 -->
+					<div class="v3login-z1">
+						<ul>
+							<li class="reglia">短信验证</li>
+							<li class="reglib">
+								<input maxlength="6" placeholder="请输入验证码" autocomplete="off" tabindex="2" class="vtxt-y" name="txtValidationCode" id="txtValidationCode" value="" type="text">
+							</li>
+
+							<!-- reglic : 默认class     reglic-1 : 倒计时class -->
+							<li class="reglic-1">
+								<input id="aSendCode" value="获取短信验证码" disabled="disabled" type="button" class="vzhao2">
+							</li>
+						</ul>
+					</div>
+					<!-- 提示 -->
+					<div class="v3login-z2">
+						<ul>
+							<li class="reglia"></li>
+							<li class="reglib">
+								<div class="autherr"></div>
+							</li>
+						</ul>
+					</div>
+					<!-- 注册按钮 -->
+					<div class="v3login-z2">
+						<div class="v3l-btn">
+							<a href="#" id="btnSubmit" class="btn-login" style="color: #fff;">马上注册</a>
+						</div>
+					</div>
+					<!-- 复选框&协议 -->
+					<div class="input-cont m_t_10">
+						<a href="#" target="_blank" class="middle_gray fr">《奥莱购会员协议》</a>
+						<input class="chkrememberMe fr" type="checkbox" checked>
+					</div>
+				</div>
+			</div>
+			<!-- register -->
+			<div class="clear"></div>
+		</div>
+	</div>
+	<!-- register-main -->
+
+
+
+
+	<!-- register-foot -->
+	<div id="foot" class="w_full">
+		<!-- 与底部的间隔 -->
+		<div class="full_w"></div>
+		<!-- 与底部的间隔 -->
+		<!-- foot-copyright -->
+		<div class="w_1200 m_auto">
+			<div class="hp-copy">
+				<ul>
+					<li><a href="#" target="_blank">关于奥莱购</a></li>
+					<li>|</li>
+					<li><a href="#" target="_blank">联系我们</a></li>
+					<li>|</li>
+					<li><a href="#" target="_blank">诚聘英才</a></li>
+					<li>|</li>
+					<li><a href="#" target="_blank">商务合作</a></li>
+					<li>|</li>
+					<li><a href="#" target="_blank">友情链接</a></li>
+					<li>|</li>
+					<li><a href="#" target="_blank">华南城网</a></li>
+					<li>|</li>
+					<li><a href="#" target="_blank">华盛Outlets</a></li>
+				</ul>
+			</div>
+			<div class="hp-copyright">
+				Copyright © 2013-2016 深圳华盛电子商务有限公司 粤ICP备16081451-1号 All Right
+				<br />
+				<br /> 
+				深圳市龙岗区平湖华南城1号交易广场4楼奥莱购（深圳华盛电子商务有限公司）
+			</div>
+			<div class="authentication">
+				<ul class="clear">
+					<li class="foot-res cation1">
+						<a href="#" target="_blank"></a>
+					</li>
+					<li class="foot-res cation2">
+						<a href="#" target="_blank"></a>
+					</li>
+					<li class="foot-res cation3">
+						<a href="#" target="_blank"></a>
+					</li>
+					<li class="foot-res cation4">
+						<a href="#" target="_blank"></a>
+					</li>
+					<li class="foot-res cation5">
+						<a href="#" target="_blank"></a>
+					</li>
+					<li class="foot-res cation6">
+						<a href="#" target="_blank"></a>
+					</li>
+					<li class="foot-res cation7">
+						<a href="#" target="_blank"></a>
+					</li>
+					<li class="foot-res cation8">
+						<a href="#" target="_blank"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- foot-copyright -->
+	</div>
+	<!-- register-foot -->
+
+
+
+
+	<script src="../js/register.js"></script>
+	<!-- <script src="../js/reg_cookies.js"></script> -->
+</body>
+>>>>>>> cc23603557d4f8e414ce3aa31a32c618863240ec
 </html>

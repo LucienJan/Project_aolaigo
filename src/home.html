@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -1267,4 +1268,1275 @@
 
 
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>奥莱购首页</title>
+	<link href="img/icons/aolaigo.ico" rel="shortcut icon"/>
+	<link rel="stylesheet" href="./css/public.css">
+	<link rel="stylesheet" href="./css/home.css">
+	<link rel="stylesheet" href="./css/footer.css">
+
+	<script src="js/jquery-3.1.1.js"></script>
+</head>
+<body>
+	<!-- top-bar鼠标移入奥特莱斯购物中心li显示列表 -->
+	<script>
+		jQuery(document).ready(function(){
+			$('.top-tips-aolaigou').on('mouseenter',function(){
+				$('.com-tips-box').css('display','block');
+			}).on('mouseleave',function(){
+				$('.com-tips-box').css('display','none');
+			})
+		})
+	</script>
+	<!-- top-bar -->
+	<div class="top-bar w_full">
+		<div class="top-bar-cont w_1200 m_auto">
+			<ul class="top-bar-left fl">
+				<li class="top-tips-aolaigou">
+					<a href="#">奥特莱斯购物中心</a>
+					<div class="com-tips-box" style="display:none;">
+						<em class="com-tips-t-bg">◆</em>
+						<em class="com-tips-t">◆</em>
+						<ul class="top-tips">
+							<li><a href="#" target="_blank">深圳华盛奥特莱斯</a></li>
+							<li><a href="#" target="_blank">南宁华盛奥特莱斯</a></li>
+							<li><a href="#" target="_blank">南昌华盛奥特莱斯</a></li>
+							<li><a href="#" target="_blank">西安华盛奥特莱斯</a></li>
+							<li><a href="#" target="_blank">郑州华盛奥特莱斯</a></li>
+							<li><a href="#" target="_blank">哈尔滨华盛奥特莱斯</a></li>
+						</ul>
+					</div></li>
+				<li><a href="#" target="_blank">商家入驻</a></li>
+			</ul>
+			<ul class="top-bar-right fr clear">
+				<li>您好,欢迎来到奥莱购</li>
+				<li class="li_login"><a href="./html/login.html">请登录</a>
+				</li>
+				<li class="li_reg"><a href="./html/register.html">免费注册</a>
+				</li>
+				<li>
+					<span class="icon-cart fl"></span>
+					<a class="fl" href="#">购物车</a>
+					<span class="num fl">0</span>
+				</li>
+				<li><a href="#">订单查询</a>
+				</li>
+				<li><a href="#">我的收藏</a>
+				</li>
+				<li><a href="#">帮助中心</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- top-bar -->
+
+	<!-- top-main -->
+	<div class="top-main w_full">
+		<div class="top-main-content w_1200 m_auto p_relative clear">
+			<div class="top-main-logo m_t_30 m_l_30 fl">
+				<a href="http://www.aolaigo.com" target="_blank"><h1>奥莱购</h1></a>
+			</div>
+			<!-- top-search -->
+			<div class="itop-sh">
+				<div class="itop-sh-up">
+					<div class="itop-k">
+						<input type="text" class="search-value" id="key" value="拉夏贝尔" onfocus="if(value=='拉夏贝尔'){value=='';};" onblur="if(value==''){value=='拉夏贝尔';};" onkeydown="javascript:if(event.keyCode==13) search('key');" maxlength="100" placeholder="请输入您想寻找的商品名称">
+					</div>
+					<div class="itop-bt">
+						<input type="button" class="search-btn" value="搜索">
+					</div>
+				</div>
+				<div class="itop-sh-list">
+					<dl>
+						<dt>热门搜索：</dt>
+						<dd><a href="#" target="_blank">新百伦</a></dd>
+						<dd><a href="#" target="_blank">连衣裙</a></dd>
+						<dd><a href="#" target="_blank">休闲鞋</a></dd>
+						<dd><a href="#" target="_blank">T恤</a></dd>
+						<dd><a href="#" target="_blank">新百伦</a></dd>
+						<dd><a href="#" target="_blank">新百伦</a></dd>
+						<dd><a href="#" target="_blank">新百伦</a></dd>
+					</dl>
+				</div>
+			</div>
+			<div class="search suggest_result" style="display:none;"></div>
+			<!-- top-search -->
+			<div class="top-main-ma fr">
+				<img src="img/QRcode.png"/>
+			</div>
+		</div>
+
+		<!-- top-nav -->
+		<div class="top-nav w_full p_relative">
+			<div class="top-nav-cont w_1200 m_auto">
+				<!-- 全部商品导航 -->
+				<div class="top-select fl">
+					<div class="top-select-tit">
+						<div class="red-bg"></div>全部商品
+						<div class="white-triangle"></div>
+					</div>
+					<div class="top-select-cont" style="display:block;">
+						<!-- 左侧导航 -->
+						<ul class="top-select-bar fl clear">
+							<li>
+								<span class="bcate fl">
+									<a href="#" target="_blank">奢侈品</a>
+								</span>
+								<div class="scate fl">
+									<a href="#" target="_blank">包袋</a>
+									<span>|</span>
+									<a href="#" target="_blank">服装</a>
+									<span>|</span>
+									<a href="#" target="_blank">配饰</a>
+								</div>
+								<div class="books o_hidden" style="display:none;">
+									<div class="books-top">
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+									</div>
+									<div class="books-down">
+										<ul>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down1.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down2.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down3.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down4.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down5.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down6.jpg"/>
+											</a></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+
+							<li>
+								<span class="bcate fl">
+									<a href="#" target="_blank">女装</a>
+								</span>
+								<div class="scate fl">
+									<a href="#" target="_blank">包袋</a>
+									<span>|</span>
+									<a href="#" target="_blank">服装</a>
+									<span>|</span>
+									<a href="#" target="_blank">配饰</a>
+								</div>
+								<div class="books o_hidden" style="display:none;">
+									<div class="books-top">
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+									</div>
+									<div class="books-down">
+										<ul>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down1.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down2.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down3.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down4.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down5.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down6.jpg"/>
+											</a></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+
+							<li>
+								<span class="bcate fl">
+									<a href="#" target="_blank">男装</a>
+								</span>
+								<div class="scate fl">
+									<a href="#" target="_blank">包袋</a>
+									<span>|</span>
+									<a href="#" target="_blank">服装</a>
+									<span>|</span>
+									<a href="#" target="_blank">配饰</a>
+								</div>
+								<div class="books o_hidden" style="display:none;">
+									<div class="books-top">
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+									</div>
+									<div class="books-down">
+										<ul>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down1.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down2.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down3.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down4.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down5.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down6.jpg"/>
+											</a></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+
+							<li>
+								<span class="bcate fl">
+									<a href="#" target="_blank">运动</a>
+								</span>
+								<div class="scate fl">
+									<a href="#" target="_blank">包袋</a>
+									<span>|</span>
+									<a href="#" target="_blank">服装</a>
+									<span>|</span>
+									<a href="#" target="_blank">配饰</a>
+								</div>
+								<div class="books o_hidden" style="display:none;">
+									<div class="books-top">
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+									</div>
+									<div class="books-down">
+										<ul>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down1.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down2.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down3.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down4.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down5.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down6.jpg"/>
+											</a></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+
+							<li>
+								<span class="bcate fl">
+									<a href="#" target="_blank">鞋靴</a>
+								</span>
+								<div class="scate fl">
+									<a href="#" target="_blank">包袋</a>
+									<span>|</span>
+									<a href="#" target="_blank">服装</a>
+									<span>|</span>
+									<a href="#" target="_blank">配饰</a>
+								</div>
+								<div class="books o_hidden" style="display:none;">
+									<div class="books-top">
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+									</div>
+									<div class="books-down">
+										<ul>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down1.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down2.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down3.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down4.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down5.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down6.jpg"/>
+											</a></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+
+							<li>
+								<span class="bcate fl">
+									<a href="#" target="_blank">箱包</a>
+								</span>
+								<div class="scate fl">
+									<a href="#" target="_blank">包袋</a>
+									<span>|</span>
+									<a href="#" target="_blank">服装</a>
+									<span>|</span>
+									<a href="#" target="_blank">配饰</a>
+								</div>
+								<div class="books o_hidden" style="display:none;">
+									<div class="books-top">
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+									</div>
+									<div class="books-down">
+										<ul>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down1.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down2.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down3.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down4.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down5.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down6.jpg"/>
+											</a></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+
+							<li>
+								<span class="bcate fl">
+									<a href="#" target="_blank">内衣</a>
+								</span>
+								<div class="scate fl">
+									<a href="#" target="_blank">包袋</a>
+									<span>|</span>
+									<a href="#" target="_blank">服装</a>
+									<span>|</span>
+									<a href="#" target="_blank">配饰</a>
+								</div>
+								<div class="books o_hidden" style="display:none;">
+									<div class="books-top">
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+									</div>
+									<div class="books-down">
+										<ul>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down1.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down2.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down3.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down4.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down5.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down6.jpg"/>
+											</a></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+
+							<li>
+								<span class="bcate fl">
+									<a href="#" target="_blank">婴童</a>
+								</span>
+								<div class="scate fl">
+									<a href="#" target="_blank">包袋</a>
+									<span>|</span>
+									<a href="#" target="_blank">服装</a>
+									<span>|</span>
+									<a href="#" target="_blank">配饰</a>
+								</div>
+								<div class="books o_hidden" style="display:none;">
+									<div class="books-top">
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+									</div>
+									<div class="books-down">
+										<ul>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down1.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down2.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down3.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down4.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down5.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down6.jpg"/>
+											</a></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+
+							<li>
+								<span class="bcate fl">
+									<a href="#" target="_blank">美妆</a>
+								</span>
+								<div class="scate fl">
+									<a href="#" target="_blank">包袋</a>
+									<span>|</span>
+									<a href="#" target="_blank">服装</a>
+									<span>|</span>
+									<a href="#" target="_blank">配饰</a>
+								</div>
+								<div class="books o_hidden" style="display:none;">
+									<div class="books-top">
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+									</div>
+									<div class="books-down">
+										<ul>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down1.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down2.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down3.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down4.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down5.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down6.jpg"/>
+											</a></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+
+							<li>
+								<span class="bcate fl">
+									<a href="#" target="_blank">跨境汇</a>
+								</span>
+								<div class="scate fl">
+									<a href="#" target="_blank">包袋</a>
+									<span>|</span>
+									<a href="#" target="_blank">服装</a>
+									<span>|</span>
+									<a href="#" target="_blank">配饰</a>
+								</div>
+								<div class="books o_hidden" style="display:none;">
+									<div class="books-top">
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+										<dl class="clearLeft">
+											<dt><a href="#" target="_blank">女装</a></dt>
+											<dd><a href="#" target="_blank">短袖T恤</a></dd>
+											<dd><a href="#" target="_blank">长袖T恤</a></dd>
+											<dd><a href="#" target="_blank">裙装</a></dd>
+											<dd><a href="#" target="_blank">裤装</a></dd>
+											<dd><a href="#" target="_blank">针织衫</a></dd>
+											<dd><a href="#" target="_blank">外套</a></dd>
+											<dd><a href="#" target="_blank">风衣</a></dd>
+										</dl>
+									</div>
+									<div class="books-down">
+										<ul>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down1.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down2.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down3.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down4.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down5.jpg"/>
+											</a></li>
+											<li><a href="#" target="_blank">
+												<img src="./img/books-down6.jpg"/>
+											</a></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+						</ul>
+						<!-- 左侧导航 -->
+					</div>
+				</div>
+
+				<!-- 顶部导航 -->
+				<ul class="top-nav-ul fl m_l_20 clear">
+					<li class="item"><a href="http://www.aolaigo.com" class="active">首页</a></li>
+					<li class="item">
+						<a href="#">国际奢品</a>
+						<em class="tips">best</em>
+					</li>
+					<li class="item"><a href="#">跨境优品</a></li>
+					<li class="item"><a href="#">限时秒杀</a></li>
+					<li class="item"><a href="#">OUTLETS MALL</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- top-nav -->
+
+		<!-- 首页轮播图 -->
+		<div id="indbig" class="focusv3">
+			<ul id="indbigcon" class="fPicv3">
+				<li class="fcon">
+					<a href="#" target="_blank">
+						<img src="img/banner_1.jpg">
+					</a>
+				</li>
+				<li class="fcon">
+					<a href="#" target="_blank">
+						<img src="img/banner_2.jpg">
+					</a>
+				</li>
+				<li class="fcon">
+					<a href="#" target="_blank">
+						<img src="img/banner_3.jpg">
+					</a>
+				</li>
+			</ul>
+			<!-- 按钮+分页 -->
+			<div class="vtabcon">
+				<!-- 分页 -->
+				<div id="indbigtab" class="indbigtab">
+					<a href="javascript:void(0)" target="_self">
+						<span>1</span>
+					</a>
+					<a href="javascript:void(0)" target="_self">
+						<span>2</span>
+					</a>
+					<a href="javascript:void(0)" target="_self">
+						<span>3</span>
+					</a>
+				</div>
+				<!-- 前后按钮 -->
+				<span class="prevv3"></span>
+				<span class="nextv3"></span>
+			</div>
+		</div>
+		<script>
+		$(function(){
+			var $carousel = $('#indbig');
+			var $ul = $carousel.children('ul');
+
+			var len = $ul.children().length;
+			var index = 0;
+			var timer;
+
+			/*// 生成分页
+			for(var i=0;i<len;i++){
+				var $span = $('<span/>').html(i+1);
+
+				if(i===index){
+					$span.addClass('active');
+				}
+				$('#indbigtab').append($span);
+			}*/
+
+			// 鼠标移入移出
+			$('#indbigcon li a img').on('mouseenter',function(){
+				clearInterval(timer);
+			}).on('mouseleave',function(){
+				timer = setInterval(function(){
+					index++;
+					showPic();
+				},3000);
+			}).trigger('mouseleave');
+
+			// 上一张/下一张
+			$carousel.on('click','.prevv3',function(){
+				index--;
+				showPic();
+			}).on('click','.nextv3',function(){
+				index++;
+				showPic();
+			})
+
+			function showPic(){
+				if(index < 0){
+					index = len - 1;
+				}else if(index > len - 1){
+					index = 0;
+				}
+
+				$ul.children().eq(index).fadeIn().siblings().fadeOut();
+			}
+		})
+		</script>
+		<!-- 首页轮播图 -->
+		<!-- 置顶4活动 -->
+		<div class="Stick w_full"></div>
+		<!-- 置顶4活动 -->
+		<!-- 限时秒杀 Seckill -->
+		<div class="Seckill w_full"></div>
+		<!-- 限时秒杀 Seckill -->
+		<!-- 专柜精选 Brand Wew -->
+		<div class="Feature w_full floor"></div>
+		<!-- 专柜精选 Brand Wew -->
+		<!-- 国际奢品 Luxury Goods -->
+		<div class="Luxury w_full floor"></div>
+		<!-- 国际奢品 Luxury Goods -->
+		<!-- 跨境优品 Cross-border Goods -->
+		<div class="Cross w_full floor"></div>
+		<!-- 跨境优品 Cross-border Goods -->
+		<!-- 运动户外 Sport&Outdoors -->
+		<div class="Outerdoor w_full floor"></div>
+		<!-- 运动户外 Sport&Outdoors -->
+		<!-- 潮流女装 Fashionable Women's Wear -->
+		<div class="Fashion	w_full floor"></div>
+		<!-- 潮流女装 Fashionable Women's Wear -->
+		<!-- 精选男装 Selected Men's Wear -->
+		<div class="Menwear w_full floor"></div>
+		<!-- 精选男装 Selected Men's Wear -->
+		<!-- 潮流鞋靴 Trendy Shoe -->
+		<div class="Shoe w_full floor"></div>
+		<!-- 潮流鞋靴 Trendy Shoe -->
+		<!-- 时尚箱包 Fashion bags -->
+		<div class="Bags w_full floor"></div>
+		<!-- 时尚箱包 Fashion bags -->
+		<!-- 精选内衣 Selected Underwear -->
+		<div class="Underwear w_full floor"></div>
+		<!-- 精选内衣 Selected Underwear -->
+		<!-- 可爱童装 Lovely Children's Wear -->
+		<div class="Children w_full floor"></div>
+		<!-- 可爱童装 Lovely Children's Wear -->
+
+		<!-- 左侧楼梯 -->
+		<ul class="Left"></ul>
+		<!-- 左侧楼梯 -->
+
+		<!-- 右下角弹窗 -->
+		<div class="FootPop"></div>
+		<!-- 右下角弹窗 -->
+
+
+
+		<!-- 底部 -->
+		<div id="foot" class="w_full">
+		</div>
+		<script>
+			$('#foot').load('./html/footer.html');
+		</script>
+		<!-- 底部 -->
+
+	</div>
+
+
+</body>
+>>>>>>> cc23603557d4f8e414ce3aa31a32c618863240ec
 </html>

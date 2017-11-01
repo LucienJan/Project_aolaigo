@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 #过滤包管理目录gulp
+=======
+#过滤包管理目录gulp
+>>>>>>> cc23603557d4f8e414ce3aa31a32c618863240ec
 /node_modules
